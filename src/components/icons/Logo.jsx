@@ -8,6 +8,7 @@ export default function Logo({ width = 1.5, className, alt }) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       alt={alt}
+      stroke="var(--color-primary-500)"
     >
       <path
         d="M19.9938 3.5H30.0063"
@@ -17,6 +18,7 @@ export default function Logo({ width = 1.5, className, alt }) {
       />
       <path
         d="M11.0005 10.5L34.9995 10.5"
+        stroke="var(--color-primary-500)"
         strokeWidth={width}
         strokeLinecap="round"
       />
