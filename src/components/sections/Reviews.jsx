@@ -6,6 +6,7 @@ const Reviews = () => {
         {
             reviews.map((review)=>(
                 <li key={review.id} className=" -mr-4 last:mr-0">
+                    <p></p>
                     <img src={review.src} alt={review.alt} className=" border-primary-100 border-2 h-12 rounded-full"/>
                 </li>
             ))
